@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  p{
+    color:#2A483A;
+    }
+  
+  /*overskrift og tekst*/
+  .recyclingplanet {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  .recyclingplanet div {
+    width: 60%;
+    margin: 7%;
+    margin-top: 0;
+  }
+  
+  /*slidedownfunktion*/
+  #slidedown p {
+    color: #6e8e7e;
+  }
+  
+
+  #slidedown {
+    cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12pt;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #moretext{
+    padding: 0px;
+    margin: 0;
+    display: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12pt;
+    justify-content: center;
+  }
+
+  /*plexiplastbillede*/
+  .plexipicture img {
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  .plexipicture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+    border-radius: 25%;
+  }
+  
+  /*containers med billeder og info*/
+  .betterclimate {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+  
+  .bettercsr {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .betterclimate div {
+    width: 350px;
+    height: 570px;
+    text-align: center;
+    margin: 5%;
+    margin-bottom: 1%;
+  }
+  
+  .bettercsr div {
+    width: 350px;
+    height: 750px;
+    text-align: center;
+    margin: 5%;
+  }
+  
+  .betterclimate img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  .bettercsr img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  .betterclimate h1 {
+    margin: 3%;
+  }
+  
+  .bettercsr h1 {
+    margin: 3%;
+  }
+  
+  /*MOBIL*/
+  @media screen and (max-width: 910px) {
+    .protectplanet h1 {
+      font-size: 18pt;
+      margin: 0px;
+      padding-bottom: 0px;
+      justify-content: center;
+    }
+    .contacttext h1 {
+      font-size: 14pt;
+    }
+
+    .plexipicture{
+        display:none;
+    }
+  
+    .betterclimate h1 {
+      font-size: 14pt;
+    }
+
+    .bettercsr h1{
+      font-size: 14pt;
+    }
+  
+}
+  

@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Kontaktformular*/
+.kontaktformular h1{
+    margin:5%;
+}
+.contactinfo{
+    justify-content: center;
+    display: flex;
+}
+
+.kontaktformular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #2A483A;
+    border-radius: 20px;
+    background-color:#FDFFF9;
+    flex-direction: column;
+    width: 350px;
+    margin:5%;
+    margin-top:5%;
+    margin-bottom:7%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4)
+}
+
+
+.felt{
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family:'Nunito Sans', sans-serif;
+
+    border: 2px solid #2A483A;
+    border-radius: 20px;
+
+    outline: none;
+    display: flex;
+    background-color:#F7F6F0;
+    color: #2A483A;
+    font-size: 12pt;
+}
+
+.sendfield-textarea {
+   font-family:'Nunito Sans', sans-serif;
+    height: 150px;
+    width: 300px;
+
+    margin-top: 20px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+
+    border: 2px solid #2A483A;
+    border-radius: 20px;
+    background-color:#F7F6F0;
+    color:#2A483A;;
+
+    font-size: 12pt;
+
+}
+
+.kontaktformular button{
+    display: flex;
+    justify-content: center;
+    color:#2A483A;;
+    background-color:#FDFFF9;
+
+    font-family:'League Spartan', sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+
+    border: none;
+    cursor: pointer;
+
+    width: 30%;
+    border: 2px solid #2A483A;;
+    border-radius: 20px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/*Henvendelser er velkomne*/
+.henvend{
+    margin:5%;
+    margin-top:5%;
+    justify-content:center;
+    width:400px;
+    height:200px;
+    text-align:center;
+    flex-direction: column;
+    }
+   
+
+
+ /*MOBIL*/
+ @media screen and (max-width:910px){
+    .contactinfo{
+    flex-direction:column; 
+    margin-bottom:60%;
+    }
+
+    p{
+        font-size:12pt;
+    }
+
+    .contactinfo h1{
+        font-size:20pt;
+    }
+.contactinfo{
+    width:80%;
+    height:80%;
+    align-items:center;
+    justify-content: center;
+}
+
+
+.kontaktformular{
+    width:80%;
+    height:80%;
+}
+.felt{
+    width:80%;
+    font-size: 12pt;
+}
+.sendfield-textarea{
+    width:80%;
+}
+
+.sendbtn{
+font-size:12pt;
+padding: 7px 10px;
+border: 2px solid  #2A483A;
+ }
+}

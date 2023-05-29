@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recycling og klimaansvar</title>
+    <link rel="stylesheet" href="headerandfooter.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="recycling.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan&family=Nunito+Sans:wght@200;300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="imagespolyloop/logoet.jpg" alt="index.html"></a>
+        </div>
+        <nav id="headerlaptop">
+            <a href="plastiktyper.html">Plastiktyper</a>
+            <a href="recycling.html">Recycling & Klimaansvar</a>
+            <a href="ompolyloop.html">Om Polyloop</a>
+            <a href="contact.html">Kontakt</a>
+        </nav>
+        <!--Mobil-->
+        <nav id="headermobil">
+            <a href="menu.html"><img src="imagespolyloop/burger.svg" alt="Burgermenu"></a>
+        </nav>
+    </header>
+    <main>
+        <section class="recyclingplanet">
+            <div class="protectplanet">
+                <h1>Recycling - beskyt planeten, styrk virksomheden <br> og sænk klimaaftrykket</h1>
+                <p>Genanvendelse af plastik er en vigtig del af at mindske miljøpåvirkningen og bevare vores planet for fremtiden.</p>
+                <div id="slidedown">
+                    <p>Læs mere</p>
+                </div>
+                <div id="moretext">
+                    <p>God CSR og fokus på opnåelse af klimamålsætninger og krav nationalt og internationalt kræver, at virksomheder må omlægge, nytænke og investere for at være grønne og klimaansvarlige.</p>
+                    <p>Der findes mange typer plastik, og det kan være svært at gennemskue, hvad man kan og hvad der er det rigtige at gøre med sit affaldsplast.</p>
+                    <p>Hos Polyloop er vi problemløsere, og meget kan lade sig gøre. <b>Ring til Polyloop og få en snak og rådgivning om, hvordan vi kan hjælpe med det.</b></p>
+                </div>
+            </div>
+            <div class="plexipicture">
+                <img src="imagespolyloop/plexi.jpg" alt="">
+            </div>
+        </section>
+
+        <section class="betterclimate">
+            <div>
+                <img src="imagespolyloop/diagramm.jpg" alt="">
+                <h1>Bedre Klima</h1>
+                <p>Til fremstilling af et kilo plastråvare (virgin LDPE) udledes ca. 2 kilo CO2. Til fremstilling af 1 kg regenerat (recycled LDPE) udledes = 0,5 kg CO2. Dette faktum er endnu en grund til at genbruge plast.</p>
+            </div>
+            <div>
+                <img src="imagespolyloop/miljø.jpg" alt="">
+                <h1>Bedre Miljø</h1>
+                <p>Plast er fremstillet af restprodukter fra olieindustrien. Da olie er en ikke-fornybar ressource, er det en god idé at spare så meget som muligt på denne ressource. Dette faktum er den mest indlysende grund til at genbruge plast og alle andre materialetyper, som er baseret på ikke-fornybare ressourcer.</p>
+            </div>
+        </section>
+
+        <section class="bettercsr">
+            <div>
+                <img src="imagespolyloop/csr1.jpg" alt="">
+                <h1>Bedre CSR</h1>
+                <p>Virksomheder i dag er naturligvis nødt til at imødekomme samfundets krav og derigennem alene have en motivation for genbrug. Desuden pålægger nogle virksomheder sig selv yderligere pres ved at blive miljøcertificerede eller ved at lave grønne regnskaber. I praksis vurderer virksomheden alle de gode miljø- og klimahensyn op mod det ekstra besvær og de omkostninger/indtægter, der er i det.</p>
+            </div>
+            <div>
+                <img src="imagespolyloop/hierakiet.jpg" alt="">
+                <h1>Bedre Økonomi</h1>
+                <p>Hvis virksomheden får genanvendt sit affald, sparer man altså afgifterne til forbrænding eller deponi. Desuden sparer man på omkostninger til renovation. Reducerede omkostninger i forening med den pris, Polyloop betaler for plastaffaldet, vil som regel bevirke et betragteligt positivt bidrag til bundlinjen.</p>
+            </div>
+        </section>
+    </main>
+
+
+<footer>
+    <div class="footercontent">
+        <div class="address">
+            <p> <b>Polyloop ApS</b> <br>
+                CEO: Flemming Bonde <br>
+                Bergensvej 2 <br>
+                DK-6230 <br>
+                Rødekro
+            </p>
+        </div>
+        <div class="contactcontent"> 
+            <p> <b>  Kontakt</b> <br>
+                Tel: +45 7020 1868 <br>
+                Mobil: +45 2043 0868 <br>
+                Mail: fb@polyloop.dk <br>
+                Web: www.polyloop.dk <br>
+                SE-nummer: 29512558 <br>
+        </div>
+        <div class="certificate">
+            <img src="imagespolyloop/thecertificate.jpg" alt="certificate">
+        </div>
+    </div>
+</footer>
+   
+   <!--Slidedownfunktion--> 
+<script>
+$(document).ready(function(){
+    $("#slidedown").click(function(){
+      $("#moretext").slideDown("slow");
+    });
+  });
+</script>
+    
+</body>
+</html>

@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+font-family:'Nunito Sans', sans-serif;
+font-size:14pt;
+line-height:1,5;
+}
+
+
+header{
+    position:sticky;
+    top:0px;
+    width:100%;
+    height:100px;
+    font-family:'League Spartan', sans-serif;
+    color:#2A483A;
+    
+    display:flex; /* For at kunne distribuere boksene inden i.*/
+    justify-content:space-around;
+    align-items:center;
+    background-color:#FDFFF9;
+    border-bottom: 2px solid #2A483A;
+
+}
+
+/* Billeder skal fylde 100*% i deres container: 
+Logo og burger */
+
+header img{
+    width: 100%;
+}
+
+/*#logo > img{
+    width:100%;
+}
+*/
+
+#headermobil img{
+    width:35px;
+    margin-top:15px;
+}
+
+/*hovereffekt*/
+
+
+
+
+/* LAPTOP: skift tilbage til min-width */
+@media screen and (min-width:910px){
+    /* HEADER: LOGO*/
+    #logo {/* Logoet. Er i en div fordi det spiller bedre med flexbox. */
+        width:200px;
+        position:relative;
+    }
+
+    /* Vis laptopmenuen og samtidig gør den til flex container. */
+    #headerlaptop {
+        display:flex; 
+        justify-content:space-evenly;
+        width:70%;
+        gap:0px;
+}
+    }
+ /* Tekstlinks: */
+ nav > a{
+    font-family:'League Spartan', sans-serif;
+    color:#2A483A;
+    text-decoration:none;
+    font-size:20pt;
+    font-weight:bold;
+}
+
+/*RESPONSIV MOBIL HEADER og FOOTER*/
+@media screen and (max-width:910px) {
+
+    header{
+        justify-content:space-between;
+        padding-left:10px;
+        padding-right:10px;
+    }
+    
+    #logo{ /* Logoet skal være mindre på mobil. */
+        width:150px;
+    }
+     /* Skjul laptopmenuen på mobil. */
+     #headerlaptop {
+        display:none; 
+    }
+
+    .certificate img{
+        width:70%;
+    }
+    p{
+        font-size:12pt;
+    }
+    
+    }
+    
+    /*RESPONSIV LAPTOP HEADER*/
+    @media screen and (min-width:910px){
+    
+    #headermobil{
+            display:none;
+        }
+    }    
+    
+/*FOOTER*/
+.footercontent{
+    display: flex;
+    justify-content:center;
+    font-weight: lighter;
+  
+}
+.footercontent div{
+    width:400px;
+    height:400px;
+   
+    text-align: left;
+}
+

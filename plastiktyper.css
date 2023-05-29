@@ -1,0 +1,125 @@
+
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Plastiktyper og former slide*/
+#plasttyperne{
+    margin:5%;
+}
+
+#plasttyperne h1{
+    display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   #plast1, #plast2, #plast3, #plast4{
+       border-radius:20px;
+   }
+   
+   #plastikoversigt{
+       padding-top: 4%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   
+   #leftpil, #rightpil
+   {
+       cursor: pointer;
+       padding: 5%;
+   }
+
+   /*Plastikcmaterials*/
+   .plasticmaterials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:10%;
+    
+   }
+
+   .plasticmaterials div{
+    width:600px;
+  text-align: center;
+   }
+
+/*Billeder plastikkatalog*/
+.katalogcontainer img, .katalogcontainer1 img{
+    width: 100%;
+    border-radius:20px;
+    margin-bottom:4%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4)
+}
+
+.katalogcontainer{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    font-family:'League Spartan', sans-serif;
+    margin-bottom:5%;
+}
+
+.katalogcontainer1{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    font-family:'League Spartan', sans-serif; 
+    margin-bottom:10%;
+}
+
+
+/*billede div classes*/
+.pmmabox, .bigbagbox, .pe100box, .hipsbox{
+width: 250px;
+height: 250px;
+text-align:center;
+margin:20px;
+font-size:12pt;
+
+}
+
+.pmmaalu, .pmmaxt, .pe500, .stobtpmma{
+width: 250px;
+height: 250px;
+text-align:center;
+margin:20px;
+font-size:10pt;
+}
+
+
+
+
+
+
+
+  /*MOBIL*/
+@media screen and (max-width:910px){
+    
+
+    #plasttyperne h1{
+        font-size:18pt; 
+    }
+
+
+    p{
+        font-size:12pt;
+    }
+
+  #plast1, #plast2, #plast3, #plast4{
+width:80%;
+  }
+  #leftpil{
+    display:none;
+  }
+
+ #rightpil img{
+    width:10%;
+   
+}
+
+}
+
